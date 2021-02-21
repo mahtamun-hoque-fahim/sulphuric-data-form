@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    outline: none;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    background: #eeeeee;
+}
+main{
+    display: ;
+    text-align: center;
+    border-radius: 20px;
+    background: #f1f1f1;
+    box-shadow:  6px 6px 12px #5a5a5a,-6px -6px 12px #ffffff;
+    padding: 5vh 2vw;
+    margin-left: auto;
+    margin-right: auto;
+    height: 80vh;
+    width: 60vw;
+}
+#logo{
+    max-height: 200px;
+}
+p{
+    color: gray;
+}
+label{
+    color: gray;
+}
+.inputs{
+    padding: 5px 0 ;
+}
+input{
+    border: none;
+    border-radius: 30px;
+    background-color: lightgray;
+    height:7vh;
+    width:12vw;
+}
+#button{
+    padding: 5vh;
+}
+button{
+    background: linear-gradient(to right,#00A3FF,#01D1FF);
+    border: none;
+    border-radius: 30px;
+    padding: 20px 40px;
+    color: white;
+    box-shadow: 0px 0px 15px gray;
+
+}
+button:hover{
+    background:linear-gradient(to right,lime,lightgreen);
+    color: black;
+}
+@media only screen and (max-width: 600px) {
+    main{
+        height: 80vh;
+        width: 90vw;
+    }
+    input{
+        height: 10vh;
+        width: 40vw;
+    }
+    #button{
+        padding: 1vh;
+    }
+}
