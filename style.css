@@ -7,10 +7,10 @@
 body{
     height: 100vh;
     width: 100vw;
-    background: #eeeeee;
+    background: #e4e4e4;
 }
 main{
-    display: ;
+
     text-align: center;
     border-radius: 20px;
     background: #f1f1f1;
@@ -25,6 +25,7 @@ main{
     max-height: 200px;
 }
 p{
+    padding: 1px;
     color: gray;
 }
 label{
@@ -34,11 +35,15 @@ label{
     padding: 5px 0 ;
 }
 input{
+    box-shadow: inset 2px 2px 5px gray;
     border: none;
     border-radius: 30px;
     background-color: lightgray;
     height:7vh;
-    width:12vw;
+    width: 15vw;
+}
+input:placeholder-shown{
+    padding: 0 5vw;
 }
 #button{
     padding: 5vh;
@@ -47,9 +52,9 @@ button{
     background: linear-gradient(to right,#00A3FF,#01D1FF);
     border: none;
     border-radius: 30px;
-    padding: 20px 40px;
+    padding: 3vh 10vw;
     color: white;
-    box-shadow: 0px 0px 15px gray;
+    box-shadow: 2px 2px 5px gray;
 
 }
 button:hover{
@@ -63,9 +68,12 @@ button:hover{
     }
     input{
         height: 10vh;
-        width: 40vw;
+        width: 50vw;
     }
     #button{
         padding: 1vh;
+    }
+    button{
+        padding: 4vh 15vw;
     }
 }
