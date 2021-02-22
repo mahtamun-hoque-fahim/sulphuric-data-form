@@ -42,7 +42,7 @@ input{
     height:7vh;
     width: 15vw;
 }
-input:placeholder-shown{
+input:placeholder-shown {
     padding: 0 5vw;
 }
 #button{
