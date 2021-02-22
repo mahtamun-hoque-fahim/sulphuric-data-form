@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
+    font-family:Segoe UI, San-Serif;
+    font-weight:lighter;
     outline: none;
 }
 body{
