@@ -1,106 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Segoe UI',sans-serif;
-    font-weight: lighter;
     scroll-behavior: smooth;
-    outline: 0;
+    font-family: 'Quicksand';
 }
-    /* Don't Forget To Uncomment everything !! */
 body{
-    text-align: center;
-    height: 100vh ;
+    display: grid;
+    place-content: center;
+    height: 100vh;
+    background-color: #eeeeee;
+    transition: .5s ease-in-out;
 }
-main{
-    padding: 5vh;
-    margin-left: auto;
-    margin-right: auto;
-    width: 40vw;
-    height: 60vh;
-    /* border: .5px solid black; */
-}
-#main1{
-    /* border: .5px solid black; */
+body > main{
     border-radius: 30px;
-    box-shadow: 5px 5px 10px lightgray;
-    padding-bottom: 10vh;
+    width: 25vw;
+    text-align: center;
+    background-color: #ffffff;
+    box-shadow:0px 1rem 1rem #c2c2c2;
+    padding: 0 2.5vw;
+    transition: .5s ease-in-out;
 }
-#logo-div{
-    /* border: .5px solid black; */
+body > main > form > div#logo{
+    text-align: center;
+    transition: .5s ease-in-out;
 }
-#logo{
-    margin-left: auto;
-    margin-right: auto;
+body > main > form > div#logo > img#logo{
     max-width: 200px;
-}
-#text{
-    /* border: .5px solid black; */
-    padding: 0 1.5vw;
-}
-.inputs{
-    /* border: .5px solid black; */
-    padding: 5px;
+    transition: .5s ease-in-out;
+
 }
 input{
     border: none;
     border-radius: 30px;
     background: #eeeeee;
-    padding: 2vh 3vw;
+    width: 15vw;
+    padding: 2vh 1.5vw;
     box-shadow: inset 3px 2px 0px lightgray;
-}
-#button{
-    padding: 10px;
+    outline: none;
+    transition: .5s ease-in-out;
 }
 button{
     background: linear-gradient(to right,#00A3FF,#01D1FF);
     border: none;
     border-radius: 30px;
-    padding: 15px 6.5vw;
+    width: 20vw;
+    padding: 3vh 5vw;
     color: white;
-    box-shadow: 2px 2px 5px gray;
+    box-shadow:0px .5rem 1rem #c9c9c9;
+    transition: .5s ease-in-out;
 
 }
 button:hover{
     background:linear-gradient(to right,lime,lightgreen);
     color: black;
 }
-@media only screen and (max-width: 600px) {
-    main{
-    /* border: .5px solid black; */
-    padding: 5vh;
-    margin-left: auto;
-    margin-right: auto;
-    width: 80vw;
-    height: 80vh;
-    }
-    #main1{
-    /* border: .5px solid black; */
-
-    }
-    #logo-div{
-    /* border: .5px solid black; */
-    }
-    #logo{
-        height: 20vh;
-        /* border: .5px solid black; */
-    }
-    #text{
-    /* border: .5px solid black; */
-    }
-    .inputs{
-    /* border: .5px solid black; */
-
-    }
-    input{
-    /* border: .5px solid black; */
+body > main > form > div#text{
+    padding-bottom: 15px;
+    transition: .5s ease-in-out;
+}
+body > main > form > div.inputs{
+    padding: 5px;
+    transition: .5s ease-in-out;
+}
+body > main > form > div#button{
+    padding: 2.5vh 0 5vh 0;
+    transition: .5s ease-in-out;
+}
+@media only screen and (max-width: 600px){
+body > main{
+    border-radius: 20px;
+    text-align: center;
+    background-color: #ffffff;
+    box-shadow:0px 1rem 1rem #c2c2c2;
+    padding: 0 2.5vw;
     width: 60vw;
-    }
-    #button{
-    /* border: .5px solid black; */
-    }
-    button{
-            /* border: .5px solid black; */
-            width: 60vw;
-            height: 8vh;
-    }
+}
+body > main > form > div#logo{
+    text-align: center;
+}
+body > main > form > div#logo > img#logo{
+    max-width: 150px
+}
+input{
+    width: 35vw;
+    padding: 2vh 3vw;
+}
+button{
+    width: 40vw;
+    padding: 3vh 5vw;
+}
+body > main > form > div#text{
+    padding-bottom: 5px;
+}
+body > main > form > div#button{
+    padding: 1.5vh 0 5vh 0;
+}
 }
