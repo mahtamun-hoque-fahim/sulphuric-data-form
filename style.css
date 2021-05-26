@@ -11,7 +11,7 @@ body{
     display: grid;
     place-content: center;
     height: 100vh;
-    background-color: #eeeeee;
+    background-color: #f3f3f3;
     transition: .5s ease-in-out;
 }
 body > main{
@@ -23,11 +23,11 @@ body > main{
     padding: 0 2.5vw;
     transition: .5s ease-in-out;
 }
-body > main > form > div#logo{
+body > main > div#logo{
     text-align: center;
     transition: .5s ease-in-out;
 }
-body > main > form > div#logo > img#logo{
+body > main > div#logo > img#logo{
     max-width: 200px;
     transition: .5s ease-in-out;
 
@@ -57,15 +57,15 @@ button:hover{
     background:linear-gradient(to right,lime,lightgreen);
     color: black;
 }
-body > main > form > div#text{
+body > main > div#text{
     padding-bottom: 15px;
     transition: .5s ease-in-out;
 }
-body > main > form > div.inputs{
+body > main > div.inputs{
     padding: 5px;
     transition: .5s ease-in-out;
 }
-body > main > form > div#button{
+body > main > div#button{
     padding: 2.5vh 0 5vh 0;
     transition: .5s ease-in-out;
 }
@@ -78,11 +78,11 @@ body > main{
     padding: 0 2.5vw;
     width: 60vw;
 }
-body > main > form > div#logo{
+body > main > div#logo{
     text-align: center;
 }
-body > main > form > div#logo > img#logo{
-    max-width: 150px
+body > main >div#logo > img#logo{
+    max-width: 150px;
 }
 input{
     width: 35vw;
@@ -92,10 +92,10 @@ button{
     width: 40vw;
     padding: 3vh 5vw;
 }
-body > main > form > div#text{
+body > main > div#text{
     padding-bottom: 5px;
 }
-body > main > form > div#button{
+body > main >div#button{
     padding: 1.5vh 0 5vh 0;
 }
 }
