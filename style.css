@@ -4,6 +4,7 @@
 *{
     margin: 0;
     padding: 0;
+    outline:0;
     scroll-behavior: smooth;
     font-family: 'Quicksand';
 }
@@ -28,7 +29,8 @@ body > main > div#logo{
     transition: .5s ease-in-out;
 }
 body > main > div#logo > img#logo{
-    max-width: 200px;
+    max-width: 100px;
+    padding: 5vh 0 3vh 0;
     transition: .5s ease-in-out;
 
 }
